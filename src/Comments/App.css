@@ -1,0 +1,93 @@
+/* Main comments container: centers the app and sets its overall style */
+.comments-app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f5f8fc;
+  border-radius: 12px;
+}
+
+/* Input and Post button places them next to each other */
+.comment-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Text input */
+.comment-input input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #c5d5e8;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+/* Post button*/
+.comment-input button {
+  background: #3976b9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+}
+
+/* Comment row: places the avatar beside the comment */
+.comment {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+/* creates a circular area for the user's initial */
+.avatar {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #dceafb;
+  color: #285b91;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Comment bubble gives each comment a light gray background */
+.bubble {
+  background: #eaf0f7;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+
+/* makes the username bold and blue */
+.comment-name {
+  font-weight: bold;
+  font-size: 13px;
+  color: #285b91;
+}
+
+/* styles the actual message */
+.comment-text {
+  font-size: 14px;
+  margin: 4px ;
+  color: #303b49;
+}
+
+/* creates a small button with a red heart-like color */
+.like-button {
+  border: 1px solid #cbd8e6;
+  background: #ffffff;
+  color: #c62828;
+  border-radius: 10px;
+  font-size: 11px;
+  padding: 1px 8px;
+  cursor: pointer;
+}
+
+/*adds a light red background when hovered */
+.like-button:hover {
+  background: #fbeaea;
+}
